@@ -1,0 +1,14 @@
+{
+  "name": "generator-note",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "regenerator --include-runtime ./index.js > index.compile.js"
+  },
+  "author": "HonmaMeikodesu",
+  "license": "ISC",
+  "dependencies": {
+    "regenerator": "^0.14.7"
+  }
+}
